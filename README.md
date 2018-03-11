@@ -10,7 +10,7 @@ Astreia is that *Model Users* do not have the technical capacity to build these
 systems, so they need to contract *Model Providers*, that is, third party
 software services.
 
-Astreia aims to solve two fundamental problems in real-world applications of
+Astreia aims to solve three fundamental problems in real-world applications of
 machine learning:
 
 1. *Model Users* are often unable to assess the quality or health of *Models*
