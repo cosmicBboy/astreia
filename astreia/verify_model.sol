@@ -7,6 +7,7 @@ contract ModelVerification {
     uint256 accuracy;
     uint256 accuracy_threshold = 90;
 
+    // set y and pred state variables and evaluate verification criteria
     function verify(int[] y, int[] pred) public {
         uint numerator = 0;
         uint denominator = y.length;
@@ -19,6 +20,7 @@ contract ModelVerification {
         verified = accuracy >= accuracy_threshold;
     }
 
+    // get verification report variables
     function get_report() public returns (bool, uint256, uint256) {
         return (verified, accuracy, accuracy_threshold);
     }
